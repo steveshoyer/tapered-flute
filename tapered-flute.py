@@ -34,6 +34,10 @@
 # 6) test the output in a CNC simulator to verify that it is doing what you want it to do
 # 7) use the g code to cut your shooter lane tapered flute
 #
+# Assumptions:
+# - Z=0 at the top surface of the playfield
+# - Z is positive moving up and negative moving down into the playfield
+#
 
 import math
 
